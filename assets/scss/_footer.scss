@@ -1,0 +1,175 @@
+.footer {
+	background-color: $black;
+	font-family: $font-family-san-serif;
+	padding-top: 2rem;
+}
+
+.footer h5 {
+	color: $white;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.footer ul.sub-nav {
+	list-style-type: none;
+
+	li {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	a {
+		color: $purple;
+		font-family: $font-family-san-serif;
+		display: block;
+		margin-bottom: 0.5rem;
+		padding: 0;
+
+		&:hover {
+			color: scale-color($purple, $lightness: -14%);
+		}
+	}
+}
+
+.footer .content-area {
+	margin-bottom: 1.5rem;
+
+	h5 {
+		text-align: center;
+
+		@media #{$medium-up} {
+			text-align: left;
+	 }
+	}
+}
+
+.footer .content-area .widget_text, 
+.footer .content-area .widget_sp_image {
+	padding: 0;
+}
+
+.footer .content-area .widget {
+	margin: 0;
+}
+
+.footer .content-area .widget_sp_image {
+	float: left;
+	margin-bottom: 1.5rem;
+	width: 50%;
+
+	@media #{$medium-up} {
+			width: 100px;
+	 }
+
+	 img {
+	 	margin: 0 10px;
+
+	 	@media #{$large-up} {
+			margin: 0;
+	 	}
+	 }
+
+	 
+}
+
+.footer .content-area .widget_sp_image:first-of-type {
+	margin-right: 0;
+
+	@media #{$large-up} {
+			margin-right: 12px;
+	 }
+
+	 img {
+	 	float: right;
+
+	 	@media #{$large-up} {
+			float: left;
+	 	}
+	 }
+}
+
+.footer .content-area .widget_text {
+	float: left;
+	width: 100%;
+	text-align: center;
+
+	@media #{$medium-up} {
+			text-align: left;
+	 }
+}
+
+.footer .content-area .textwidget {
+	color: $mid-grey;
+	font-size: 0.875rem;
+}
+
+.footer .icon-bar {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 150px;
+
+	@media #{$medium-up} {
+			text-align: left;
+			margin: 0;
+			width: 100%;
+	 }
+}
+
+.footer .content-area .large-5,
+.footer .content-area .large-2 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.footer .content-area .large-5 h5 {
+	margin-right: 0;
+	text-align: center;
+
+	@media #{$medium-up} {
+		text-align: left;
+	 }
+
+	 @media #{$large-up} {
+		margin-right: 20px;
+		text-align: right;
+	 }
+}
+
+.footer .content-area .large-2 a {
+	float: right;
+	margin-left: 0;
+
+	@media #{$large-up} {
+		float: left;
+		margin-left: 20px;
+	 }
+}
+
+.large-spread h5 {
+	margin-top: 0px;
+
+	@media #{$large-up} {
+		margin-top: 7px;
+	 }
+}
+
+.input-form-button {
+	margin-left: 20px;
+}
+
+.grey-strip {
+	background-color: $steel-grey;
+	color: $white;
+	padding: 1rem;
+	text-align: center;
+
+	@media #{$large-up} {
+		text-align: left;
+	 }
+}
+
+.copyright {
+	margin-bottom: 0;
+	width: 100%;
+}

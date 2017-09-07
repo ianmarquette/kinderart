@@ -1,0 +1,96 @@
+.header .icon-bar {
+	display: none;
+	@media #{$medium-up} {
+		display: block;
+	 }
+}
+
+.icon-bar > a:hover {
+    background: none;
+}
+
+.icon__google-plus, 
+.icon__twitter,
+.icon__pinterest,
+.icon__facebook,
+.icon__tumblr,
+.icon__instagram {
+	background-color: $purple;
+	background-position: center;
+	border-radius: 50%;
+	color: $white;
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	margin-right: 8px;
+	overflow: hidden;
+	padding: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	width: 40px;
+
+	@media #{$large-up} {
+		margin-right: 15px;
+	 }
+}
+
+.icon-bar > .icon__google-plus:hover, 
+.icon-bar > .icon__twitter:hover,
+.icon-bar > .icon__pinterest:hover,
+.icon-bar > .icon__facebook:hover,
+.icon-bar > .icon__tumblr:hover,
+.icon-bar > .icon__instagram:hover {
+	background-color: scale-color($purple, $lightness: -14%);
+	background-position: center;
+}
+
+.icon__google-plus,
+.icon-bar > .icon__google-plus:hover {
+	@include svg-bg(google-plus);
+}
+
+.icon__twitter,
+.icon-bar > .icon__twitter:hover {
+	@include svg-bg(twitter);
+}
+
+.icon__pinterest,
+.icon-bar > .icon__pinterest:hover {
+	@include svg-bg(pinterest);
+}
+
+.icon__facebook,
+.icon-bar > .icon__facebook:hover {
+	@include svg-bg(facebook);
+}
+
+.icon__tumblr,
+.icon-bar > .icon__tumblr:hover {
+	@include svg-bg(tumblr);
+}
+
+.icon__instagram,
+.icon-bar > .icon__instagram:hover {
+	@include svg-bg(instagram);
+}
+
+.navbar {
+	margin-top: 1rem;
+}
+
+ul.title-area {
+	display: block;
+	text-transform: uppercase;
+	@media #{$large-up} {
+		display: none;
+	 }
+}
+
+.contain-to-grid nav.top-bar {
+	max-width: 75rem;
+}
+
+.top-bar-section .dropdown li.title h5 a {
+	text-transform: uppercase;
+}
+

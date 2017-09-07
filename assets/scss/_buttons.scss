@@ -1,0 +1,19 @@
+.button--slim {
+	padding-top: 0.5rem;
+	padding-bottom: 0.6rem;
+}
+
+.sh-show a,
+.sh-hide a {
+	background: $turquoise;
+	color: $white;
+	display: block;
+	font-family: $font-family-san-serif;
+	padding: 1rem 0;
+	margin-bottom: 1.25rem;
+	text-align: center;
+
+	&:hover {
+		color: $white;
+	}
+}
